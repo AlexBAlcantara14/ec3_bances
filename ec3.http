@@ -1,24 +1,17 @@
-#@server = https://alexbalcantara14-animated-space-rotary-ggj5vrv4pv43vpxx-8080.preview.app.github.dev/
 @server = https://ec3-bances.onrender.com
-@api = {{server}}/api/ec3
+#@api = {{server}}/api/ec3
 
 ################ Categorias: ################
-###
-GET {{api}}/categorias
-###
-POST {{api}}/categorias
+GET {{server}}/categorias
+POST {{server}}/categorias
 Content-Type: application/json
 
-{"nombre": "Instrumentos de Cuerda"}
+{"nombre": "Instrumentos de cuerda"}
 ################ Instrumentos: ################
-###
-GET {{api}}/instrumentos
-###
-POST {{api}}/instrumentos
+GET {{server}}/instrumentos
+POST {{server}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
-###
-GET {{api}}/instrumentos/1/categoria
-###
-GET {{api}}/instrumentos?sort=nombre,desc
+{"nombre": "Guitarra222", "categoria": "http://localhost/categorias/2%22%7D
+GET {{server}}/instrumentos/1/categoria
+GET {{server}}/instrumentos?sort=nombre,desc
