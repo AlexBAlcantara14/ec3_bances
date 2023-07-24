@@ -13,7 +13,7 @@ import java.util.HashSet;
 
 @Entity
 @Table(name = "categoria")
-public class Categoria {
+public class categoria {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
@@ -21,9 +21,9 @@ public class Categoria {
 
     private String nombre;
 
-    @OneToMany(targetEntity = Instrumento.class, mappedBy = "categoria")
+    @OneToMany(targetEntity = instrumento.class, mappedBy = "categoria")
     @OrderBy("nombre ASC")
-    private Set<Instrumento> instrumento = new HashSet<Instrumento>();
+    private Set<instrumento> instrumentos = new HashSet<instrumento>();
 
     public Integer getId() {
         return id;
@@ -41,12 +41,12 @@ public class Categoria {
         this.nombre = nombre;
     }
 
-    public Set<Instrumento> getInstrumento() {
-        return instrumento;
+    public Set<instrumento> getInstrumento() {
+        return instrumentos;
     }
 
-    public void setInstrumento(Set<Instrumento> instrumento) {
-        this.instrumento = instrumento;
+    public void setInstrumento(Set<instrumento> instrumentos) {
+        this.instrumentos = instrumentos;
     }
 
 
