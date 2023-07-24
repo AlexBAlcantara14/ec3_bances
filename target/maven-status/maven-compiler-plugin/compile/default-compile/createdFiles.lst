@@ -1,5 +1,5 @@
-com/example/ec3bances/Categoria.class
-com/example/ec3bances/CategoriaRepository.class
-com/example/ec3bances/Instrumento.class
+com/example/ec3bances/instrumentoRepository.class
+com/example/ec3bances/categoriaRepository.class
 com/example/ec3bances/Ec3BancesApplication.class
-com/example/ec3bances/InstrumentoRepository.class
+com/example/ec3bances/instrumento.class
+com/example/ec3bances/categoria.class

@@ -19,7 +19,7 @@ public class instrumento {
 
     private String nombre;
 
-
+   
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_categoria")
@@ -41,7 +41,7 @@ public class instrumento {
         this.nombre = nombre;
     }
 
-
+   
 
     public categoria getCategoria() {
         return categoria;
@@ -51,12 +51,7 @@ public class instrumento {
         this.categoria = categoria;
     }
 
-
-
-
+        
+    
+    
 }
-
-
-
-
-
