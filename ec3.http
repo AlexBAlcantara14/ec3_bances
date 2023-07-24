@@ -1,4 +1,4 @@
-@server = https://ec3-bances.onrender.com
+@server = https://ec3-alexis.onrender.com
 #@api = {{server}}/api/ec3
 
 ################ Categorias: ################
