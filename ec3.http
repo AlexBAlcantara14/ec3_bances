@@ -1,4 +1,5 @@
-@server = https://alexbalcantara14-animated-space-rotary-ggj5vrv4pv43vpxx-8080.preview.app.github.dev/
+#@server = https://alexbalcantara14-animated-space-rotary-ggj5vrv4pv43vpxx-8080.preview.app.github.dev/
+@server = https://ec3-bances.onrender.com
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
