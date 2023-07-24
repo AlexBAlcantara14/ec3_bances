@@ -23,7 +23,7 @@ public class Categoria {
 
     @OneToMany(targetEntity = Instrumento.class, mappedBy = "categoria")
     @OrderBy("nombre ASC")
-    private Set<Instrumento> instrumentos = new HashSet<Instrumento>();
+    private Set<Instrumento> instrumento = new HashSet<Instrumento>();
 
     public Integer getId() {
         return id;
@@ -42,11 +42,11 @@ public class Categoria {
     }
 
     public Set<Instrumento> getInstrumento() {
-        return instrumentos;
+        return instrumento;
     }
 
-    public void setInstrumento(Set<Instrumento> instrumentos) {
-        this.instrumentos = instrumentos;
+    public void setInstrumento(Set<Instrumento> instrumento) {
+        this.instrumento = instrumento;
     }
 
 
